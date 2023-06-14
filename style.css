@@ -1,0 +1,93 @@
+body {
+    background-color: #142615;
+    font-family: Arial, sans-serif;
+  }
+  
+  p
+{
+    color:#e0dddd
+}
+p{
+  font-size:20px;
+}
+  h1{
+    font-size:80px;
+  }
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .background-image {
+    display: block;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    z-index: 1;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+    align-items: center;
+  }
+  
+  .info-grid {
+    grid-column: 2; /* Updated: Move info-grid to the second column */
+  }
+  
+  .pic-grid {
+    grid-column: 1; /* Updated: Move pic-grid to the first column */
+  }
+  
+  @media (max-width: 10spx) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  
+    .pic-grid {
+      grid-column: auto;
+      text-align: auto;
+    }
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .background-image {
+    display: block;
+  }
+  
+  #big-word {
+    font-size: 60px;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: left;
+    color: white;
+  }
+
+/* </style>
+</head>
+<body>
+<div class="container">
+  <h1>Welcome to My Website</h1>
+  <p>This is the content of my website. Feel free to modify it as per your needs.</p>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</div>
+</body>
+</html> */
